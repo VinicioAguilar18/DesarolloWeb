@@ -1,0 +1,44 @@
+body{
+    background-color:white;
+    color: black;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+h1{
+    text-align: center;
+    font-size: 60px;px;
+    background-color: yellow;
+}    
+h2{
+    text-align: center;
+    font-size: 35px;
+    margin:  10px;
+    border-width: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+}           
+ #p_descr{font-size:larger;
+    background-color:black;
+    color:yellow
+ }
+ h3{
+    text-align: center;
+    font-size: 35px;
+ }
+ .uso{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: bottom 10px;;
+    font-size:larger;
+    background-color:yellow;
+    color:black;
+
+ }
+
+
