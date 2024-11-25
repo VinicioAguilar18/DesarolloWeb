@@ -1,44 +1,94 @@
 body{
+    margin: 0;
     background-color:white;
     color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 img{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+    width: 60%;
 }
-h1{
-    text-align: center;
-    font-size: 60px;px;
+.navbar{
+    padding:10px;
     background-color: yellow;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }    
-h2{
-    text-align: center;
+.Subnombres{
+    text-align:center;
     font-size: 35px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin:  10px;
     border-width: 10px;
     padding-left: 10px;
     padding-right: 20px;
 }           
- #p_descr{font-size:larger;
+ #p_descr{
+    padding: 40px;
+    margin: 0px;
+    font-size:larger;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color:black;
     color:yellow
  }
- h3{
-    text-align: center;
-    font-size: 35px;
- }
- .uso{
-    margin-top: 15px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
-    border: bottom 10px;;
+ p{
+    padding: 40px;
+    margin: 0px;
     font-size:larger;
-    background-color:yellow;
-    color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:black;
+    color:yellow
+}
 
+ .Usos{
+    margin: 0px;
+    font-size: 25px;
+    text-align:center;
+    background-color: black;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  }
+
+.flex-container{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+
+}
+.flex-container .Uso1{ 
+    order: 1;
+    flex-grow: 5;
+    flex-shrink:1;
+    flex-basis: auto;
+    align-self: auto;
+
+}
+.flex-container .Uso2{
+    order: 2;
+    flex-grow: 5;
+    flex-shrink:1;
+    align-self:auto;
+}
+.flex-container .Uso3{
+    order: 3;
+    flex-grow: 5;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+}
+
+
+
+
+ 
 
 
