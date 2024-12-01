@@ -1,3 +1,5 @@
+
+
 body{
     margin: 0;
     background-color:white;
@@ -6,8 +8,14 @@ body{
     flex-direction: column;
     justify-content: flex-start;
 }
-img{
+.Carrito{
+    width: 40px;
+    alt: 35px;
+
+}
+.Logotipo{
     display: block;
+    margin: 0;
     margin-left:auto;
     margin-right:auto;
     width: 60%;
@@ -85,10 +93,32 @@ img{
     flex-basis: auto;
     align-self: auto;
 }
-
-
-
-
- 
+.flex-container .productos{
+    display: flex ;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: wrap;
+    justify-content:baseline;
+}
+.flex-container .Tipo1{
+    order: 1;
+    flex-grow: 5;
+    flex-shrink:1;
+    flex-basis: auto;
+    align-self: auto;
+}
+.flex-container .Tipo2{
+    order: 2;
+    flex-grow: 5;
+    flex-shrink:1;
+    align-self:auto;
+}
+.flex-container .Tipo3{
+    order: 3;
+    flex-grow: 5;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+}
 
 
