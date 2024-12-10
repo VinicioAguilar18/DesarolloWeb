@@ -1,9 +1,14 @@
-const buttonTheme = document.getElementById("theme-boton");
+const nav = document.querySelector("#nav");
+const abrir = document.querySelector("#abrir");
+const cerrar = document.querySelector("#cerrar");
 
-buttonTheme.addEventListener("click", añadiralcarrito);
+abrir.addEventListener("click", () => {
+    nav.classList.add("visible");
+})
 
-var comprar = false;
-
+cerrar.addEventListener("click", () => {
+    nav.classList.remove("visible");
+})
 
 
 
